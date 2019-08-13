@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="FirefoxTest">
+  <parameter name="browser" value="FIREFOX"></parameter>
+  <parameter name="URL" value="http://www.google.co.in"></parameter>
+      <classes>
+      <class name="com.test.FirstTest"/>
+          </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->
